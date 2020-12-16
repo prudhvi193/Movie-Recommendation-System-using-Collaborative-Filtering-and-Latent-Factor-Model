@@ -22,15 +22,15 @@ Description about the files:
 
 2)Project-4 Guidelines.pptx: This Powerpoint slide consists on how to 
 
-2)CF.py: Python program for collaborative filtering which involves steps associated for finding the similarity metric, calculating similarities of multiple movies using both cosine similarity and adjusted cosine similarity and the final step includes prediciting the rating of given movie 'i' for user 'x'.
+3)CF.py: Python program for collaborative filtering which involves steps associated for finding the similarity metric, calculating similarities of multiple movies using both cosine similarity and adjusted cosine similarity and the final step includes prediciting the rating of given movie 'i' for user 'x'.
 
-3)LF.py: Python program for implementing a latent factor model using Stochastic Gradient Descent by optimizing both the matrices 'P' and 'Q' and then we measure its performane by calculating the Root Mean Square Error
+4)LF.py: Python program for implementing a latent factor model using Stochastic Gradient Descent by optimizing both the matrices 'P' and 'Q' and then we measure its performane by calculating the Root Mean Square Error
 
-4)LF+Biases.py: Python program for implementing Latent Factor Model + Biases model using Stochastic Gradient Descent by optimizing matrices "P for Users", "Q for Items" ,"Biases for User", "Biases for Item" and then we measure its performance by calculating the Root Mean Square Error
+5)LF+Biases.py: Python program for implementing Latent Factor Model + Biases model using Stochastic Gradient Descent by optimizing matrices "P for Users", "Q for Items" ,"Biases for User", "Biases for Item" and then we measure its performance by calculating the Root Mean Square Error
 
-5)test_dataset.csv: This CSV file contains test data information about user id and its correspoding movie/item id, rating and movie name.
+6)test_dataset.csv: This CSV file contains test data information about user id and its correspoding movie/item id, rating and movie name.
 
-6)training_dataset.csv: This CSV file contains the main training dataset about user id and its corresponding movie/item id, rating and movie name. This training dataset is used as a reference in evaluating root mean square error.
+7)training_dataset.csv: This CSV file contains the main training dataset about user id and its corresponding movie/item id, rating and movie name. This training dataset is used as a reference in evaluating root mean square error.
 
 Output Files: The explanation about the output generated is available in "CF.py" , "LF.py" and "LF+Biases.py" python file which explains clearly on how is the end result obtained. 
 
